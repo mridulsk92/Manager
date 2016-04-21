@@ -40,7 +40,7 @@ public class QualityActivity extends AppCompatActivity {
         //Get Intent
         Intent i = getIntent();
         quality = i.getIntExtra("Quality Code", 4);
-        Log.d("Qual", String.valueOf(quality));
+        Log.d("Quality", String.valueOf(quality));
 
         //Initialise
         dataList = new ArrayList<HashMap<String, String>>();
