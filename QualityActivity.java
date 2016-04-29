@@ -39,7 +39,7 @@ public class QualityActivity extends AppCompatActivity {
 
         //Get Intent
         Intent i = getIntent();
-        quality = i.getIntExtra("Qual Code", 4);
+        quality = i.getIntExtra("Quality Code", 4);
         Log.d("Quality", String.valueOf(quality));
 
         //Initialise
